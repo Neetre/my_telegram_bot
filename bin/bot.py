@@ -63,7 +63,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Send a message when the command /start is issued."""
     user = update.effective_user
     await update.message.reply_html(
-        rf"Hi {user.mention_html()}! I'm a bot that can give you quotes. Send /quote to get a quote. Add a category to get a quote from a specific category. For example, /quote happiness",
+        rf"Hi {user.mention_html()}! I'm a bot that can give you quotes. Send /help to see all available commands.",
         reply_markup=ForceReply(selective=True),
     )
 
