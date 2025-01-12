@@ -7,6 +7,14 @@ This is a simple telegram bot that can be used to send quotes to a telegram chat
 To use the bot, search for `@RondomStuffBot` in the telegram app and start a chat with it.
 Or you can use the following link to start a chat with the bot: [https://t.me/RondomStuffBot](https://t.me/RondomStuffBot)
 
+## Showcase
+
+Start a chat with the bot by sending the `/start` command.
+![start](data/readme/telegram_bot_help.png)
+
+Get the list of available commands by sending the `/help` command.
+![help](data/readme/telegram_bot_help.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
